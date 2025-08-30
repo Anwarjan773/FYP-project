@@ -1,0 +1,37 @@
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+.card-style {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.card-style:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.form-select,
+.form-control {
+  transition: border 0.3s ease-in-out;
+}
+.form-select:focus,
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+th {
+  background: #0d6efd !important;
+  color: white;
+}
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+h2 {
+  font-weight: bold;
+  color: #0d6efd;
+  text-shadow: 1px 1px 2px #bdbdbd;
+}
